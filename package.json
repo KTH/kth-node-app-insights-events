@@ -1,0 +1,27 @@
+{
+  "name": "kth-node-app-insights-events",
+  "version": "0.1.0",
+  "description": "Node module for event handling in Application Insights",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "applicationinsights": "^0.18.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KTH/kth-node-app-insights-events.git"
+  },
+  "keywords": [
+    "node",
+    "application",
+    "insights"
+  ],
+  "author": "KTH",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KTH/kth-node-app-insights-events/issues"
+  },
+  "homepage": "https://github.com/KTH/kth-node-app-insights-events#readme"
+}
