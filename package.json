@@ -4,7 +4,8 @@
   "description": "Node module for event handling in Application Insights",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"No test specified\""
+    "test": "echo \"No test specified\"",
+    "prepare": "bash -c 'if [ -f ./node_modules/.bin/husky ]; then husky install; fi'"
   },
   "repository": {
     "type": "git",
@@ -24,9 +25,9 @@
   "dependencies": {
     "@kth/eslint-config-kth": "^1.0.10",
     "applicationinsights": "^1.8.10",
-    "eslint": "^7.24.0",
+    "eslint": "^7.26.0",
     "husky": "^6.0.0",
-    "prettier": "^2.2.1",
+    "prettier": "^2.3.0",
     "pretty-quick": "^3.1.0"
   },
   "prettier": {
